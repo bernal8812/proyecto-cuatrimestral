@@ -1,2 +1,15 @@
-Es una pagina web de como aprender a jugar un videojuego(league of legend).
-Breve explicaciones de como funciona el juego y cual es el fin de el.
+Mi prorecto web(cuatrimestral)
+
+Descripcion:
+sitio web para aprender a jugar videojuegos(league of legend)
+
+
+Contenido
+.Objetivo del juego.
+.Mapa del juego.
+.Items dentro del juego.
+.Personajes.
+
+
+Autor
+Mauricio Bernal
