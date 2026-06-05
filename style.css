@@ -8,7 +8,7 @@
 :root{
 --azul:rgba(3, 3, 124, 0.958);
 --dorado:rgba(188, 175, 0, 0.912);
---t-gris:rgba(243, 228, 228, 0.839);
+--t-gris:rgba(107, 106, 106, 0.956);
 --texto:white;
 --secundario:rgba(1, 1, 91, 0.751);
 
@@ -50,11 +50,37 @@ transition: 0.5s;
 #titulo{
   color: var(--dorado); 
   font-size: 40px; 
-  margin-bottom:20px;
-  animation: aparecer 1,5 ease; 
+  
+   
 }
 .img-titulo{
 border-radius: 10px;
 box-shadow:0 0 20px gold;
-justify-content: right;
 }
+
+.main{
+     width:95%;
+    max-width:1900px;
+    margin:auto;
+}
+.section{
+background: var(--t-gris);
+  margin:30px 0;
+    padding:35px;
+
+    border-radius:15px;
+box-shadow:0 0 20px rgb(157, 137, 4)
+    ;
+
+}
+h2{
+color: var(--dorado);
+margin:30px 10px 15px;
+
+    border-bottom:4px solid var(--dorado);
+    padding-bottom:15px;
+}
+h3{
+    margin:15px 0;
+}
+
