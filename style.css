@@ -177,14 +177,42 @@ input{
 
     border-radius:8px;
 }
-input:focus{
-
-    outline:none;
-
-    box-shadow:
-    0 0 10px var(--dorado);
+footer{
+    background:rgb(9, 22, 46);;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    border-top:3px solid var(--dorado);
 }
 
+footer a{
+    color:var(--dorado);
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+
+}
+@media(max-width:768px){
+
+    .menu{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    #titulo{
+        font-size:2rem;
+    }
+
+    table{
+        font-size:.8rem;
+    }
+
+    iframe{
+        width:100%;
+        height:250px;
+    }
 
    
     
